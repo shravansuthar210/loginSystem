@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 5;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding-inline: 10px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.inputTextDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px;
+}
+.form{
+  border-radius: 10px;
+  padding: 10px;
+  border-width:1px;
+  border-color: gray;
+  border-style: solid;
+  background-color: white;
+  opacity: 1;
+  z-index: 1000;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.btn{
+  margin-top: 10px;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.input{
+  padding: 5px;
+  margin-top: 7px;
+}
+.commonContainer{
+  display: flex;
+  justify-content: center;
+
+}
+.dashboardContainer{
+  padding: 10;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.eachProject{
+  padding: 10;
+  width: 30%;
+  border-width:1px;
+  border-color: gray;
+  border-style: solid;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+.eachProjectAction{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-inline: 20px;
+  margin-block: 10px;
+}
+
+.actionBtn{
+  border-radius: 5px;
+  padding-block: 5px;
+  padding-inline: 10px;
+  border-width: 0;
+}
+.bg-red{
+  background-color: #f63f3f;
+  color: white;
+}
+.bg-green{
+  background-color: #78fa64;
+  color: white;
+}
+.bg-blue{
+  background-color: #763ff6;
+  color: white;
+}
+.taskTitle{
+  text-align: left;
+  margin-inline: 10px;
+  font-weight: 500;
+}
+.model{
+  display: flex;
+  background-color: #89898955;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+
+  height:100%;
+  width: 100%;
+  z-index: -1;
+}
+/* .modelform{
+  top:50%;
+  left:50%;
+  position: absolute;
+  
+} */
